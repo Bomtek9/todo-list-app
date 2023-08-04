@@ -12,7 +12,7 @@ function newItem(){
         }
 
     function crossOut() {
-        li.toggleClass('.strike');
+        li.toggleClass('strike');
     }
 
     li.on('dblclick', crossOut);
